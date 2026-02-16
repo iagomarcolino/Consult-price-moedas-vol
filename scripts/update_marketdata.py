@@ -9,12 +9,6 @@ import yfinance as yf
 # ========= CONFIG =========
 SYMBOLS = {
     # =========================
-    # 🇺🇸 NEW YORK (NYSE)
-    # =========================
-    "^DJI": "Dow Jones Industrial Average (DJIA)",
-    "^NYA": "NYSE Composite Index",
-
-    # =========================
     # 💱 FOREX - MAJORS (Pares principais e mais líquidos do mundo)
     # =========================
     "EURUSD=X": "EUR/USD",   # Euro em relação ao Dólar Americano
