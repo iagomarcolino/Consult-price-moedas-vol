@@ -9,95 +9,47 @@ import yfinance as yf
 # ========= CONFIG =========
 SYMBOLS = {
     # =========================
+    SYMBOLS = {
+    # =========================
     # 🇺🇸 NEW YORK (NYSE)
     # =========================
     "^DJI": "Dow Jones Industrial Average (DJIA)",
     "^NYA": "NYSE Composite Index",
 
     # =========================
-    # 🇺🇸 CHICAGO / NASDAQ
+    # 💱 FOREX - MAJORS (Pares principais e mais líquidos do mundo)
     # =========================
-    "^IXIC": "Nasdaq Composite Index",
-    "^NDX": "Nasdaq 100 (NDX)",
+    "EURUSD=X": "EUR/USD",   # Euro em relação ao Dólar Americano
+    "USDJPY=X": "USD/JPY",   # Dólar Americano em relação ao Iene Japonês
+    "GBPUSD=X": "GBP/USD",   # Libra Esterlina em relação ao Dólar Americano
+    "USDCHF=X": "USD/CHF",   # Dólar Americano em relação ao Franco Suíço
+    "AUDUSD=X": "AUD/USD",   # Dólar Australiano em relação ao Dólar Americano
+    "USDCAD=X": "USD/CAD",   # Dólar Americano em relação ao Dólar Canadense
+    "NZDUSD=X": "NZD/USD",   # Dólar Neozelandês em relação ao Dólar Americano
 
     # =========================
-    # 🇨🇦 TORONTO
+    # 💱 FOREX - CROSS PAIRS (Sem USD na composição)
     # =========================
-    "^GSPTSE": "S&P/TSX Composite Index",
-    "TX60.TS": "S&P/TSX 60 Index",
+    "EURJPY=X": "EUR/JPY",   # Euro em relação ao Iene Japonês
+    "GBPJPY=X": "GBP/JPY",   # Libra Esterlina em relação ao Iene Japonês
+    "EURGBP=X": "EUR/GBP",   # Euro em relação à Libra Esterlina
+    "AUDJPY=X": "AUD/JPY",   # Dólar Australiano em relação ao Iene Japonês
+    "NZDJPY=X": "NZD/JPY",   # Dólar Neozelandês em relação ao Iene Japonês
+    "CADJPY=X": "CAD/JPY",   # Dólar Canadense em relação ao Iene Japonês
+    "CHFJPY=X": "CHF/JPY",   # Franco Suíço em relação ao Iene Japonês
+    "EURAUD=X": "EUR/AUD",   # Euro em relação ao Dólar Australiano
+    "AUDNZD=X": "AUD/NZD",   # Dólar Australiano em relação ao Dólar Neozelandês
 
     # =========================
-    # 🇬🇧 LONDON
+    # 💱 FOREX - EMERGENTES E ASIÁTICOS
     # =========================
-    "^FTSE": "FTSE 100",
-    "^FTMC": "FTSE 250",
-
-    # =========================
-    # 🇪🇺 EURONEXT
-    # =========================
-    "^FCHI": "CAC 40 (France)",
-    "^AEX": "AEX (Netherlands)",
-    "^BFX": "BEL 20 (Belgium)",
-
-    # =========================
-    # 🇩🇪 FRANKFURT
-    # =========================
-    "^GDAXI": "DAX 40 (Germany)",
-    "^MDAXI": "MDAX (Germany Mid Caps)",
-
-    # =========================
-    # 🇨🇭 ZURICH
-    # =========================
-    "^SSMI": "SMI - Swiss Market Index",
-    "^SSHI": "SPI - Swiss Performance Index",
-
-    # =========================
-    # 🇮🇳 INDIA
-    # =========================
-    "^BSESN": "SENSEX (India)",
-    "^NSEI": "NIFTY 50 (India)",
-
-    # =========================
-    # 🇧🇷 BRAZIL - B3
-    # =========================
-    "^BVSP": "Ibovespa (IBOV)",
-    "^IBX50": "IBrX 50",
-    "BRAX11.SA": "iShares IBrX-Índice Brasil (IBrX-100) ETF (proxy do IBrX 100)",
-
-    # =========================
-    # 🇯🇵 JAPAN - TOKYO
-    # =========================
-    "^N225": "Nikkei 225",
-    "1306.T": "NEXT FUNDS TOPIX ETF (proxy do TOPIX)",
-
-    # =========================
-    # 🇰🇷 SOUTH KOREA - SEOUL
-    # =========================
-    "^KS11": "KOSPI (South Korea)",
-    "^KQ11": "KOSDAQ (South Korea)",
-
-    # =========================
-    # 🇨🇳 CHINA - SHANGHAI / SHENZHEN
-    # =========================
-    "000001.SS": "SSE Composite Index (Shanghai)",
-    "000300.SS": "CSI 300 (Shanghai + Shenzhen)",
-    "399001.SZ": "SZSE Component Index (Shenzhen)",
-    "399006.SZ": "ChiNext Index (Shenzhen)",
-
-    # =========================
-    # 🇭🇰 HONG KONG
-    # =========================
-    "^HSI": "Hang Seng Index (HK50)",
-
-    # =========================
-    # 🇦🇺 AUSTRALIA - SYDNEY
-    # =========================
-    "^AXJO": "S&P/ASX 200",
-
-    # =========================
-    # 🇸🇬 SINGAPORE
-    # =========================
-    "^STI": "Straits Times Index (Singapore)",
+    "USDBRL=X": "USD/BRL",   # Dólar Americano em relação ao Real Brasileiro
+    "EURBRL=X": "EUR/BRL",   # Euro em relação ao Real Brasileiro
+    "USDCNH=X": "USD/CNH",   # Dólar Americano em relação ao Yuan Offshore (China)
+    "USDSGD=X": "USD/SGD",   # Dólar Americano em relação ao Dólar de Singapura
+    "USDHKD=X": "USD/HKD",   # Dólar Americano em relação ao Dólar de Hong Kong
+    "USDINR=X": "USD/INR",   # Dólar Americano em relação à Rúpia Indiana
+    "USDZAR=X": "USD/ZAR",   # Dólar Americano em relação ao Rand Sul-Africano
 }
 
 LOOKBACK = "400d"
