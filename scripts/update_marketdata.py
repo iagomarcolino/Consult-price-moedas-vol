@@ -9,8 +9,6 @@ import yfinance as yf
 # ========= CONFIG =========
 SYMBOLS = {
     # =========================
-    SYMBOLS = {
-    # =========================
     # 🇺🇸 NEW YORK (NYSE)
     # =========================
     "^DJI": "Dow Jones Industrial Average (DJIA)",
