@@ -90,7 +90,9 @@ def _append_nulls(results, batch):
                 "name": company_name,
                 "price": None,
                 "close_d1": None,
-                "change_pts": None,
+                "pip_size": None,
+                "change_raw": None,
+                "change_pts": None,   # em Forex: PIPS
                 "change_pct": None,
                 "daily_7d": [],
                 "vol_annual": None,
@@ -197,6 +199,23 @@ def _clean_close_index(close: pd.DataFrame) -> pd.DataFrame:
     return close2
 
 
+def _pip_size_for_forex(sym: str) -> float:
+    """
+    Define o tamanho de 1 pip para o par.
+    Regra padrão:
+      - pares com JPY: 0.01
+      - demais: 0.0001
+    """
+    sym = (sym or "").upper()
+    return 0.01 if "JPY" in sym else 0.0001
+
+
+def _to_pips(sym: str, delta_price: float) -> float:
+    """Converte variação em preço para pips."""
+    pip = _pip_size_for_forex(sym)
+    return delta_price / pip
+
+
 def main():
     os.makedirs("data", exist_ok=True)
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -257,6 +276,8 @@ def main():
                         "name": company_name,
                         "price": None,
                         "close_d1": None,
+                        "pip_size": None,
+                        "change_raw": None,
                         "change_pts": None,
                         "change_pct": None,
                         "daily_7d": [],
@@ -286,14 +307,20 @@ def main():
             live_price = _try_get_live_price(sym)
             price = live_price if live_price is not None else last_close_daily
 
-            # >>> REGRA QUE VOCÊ PEDIU:
+            # >>> REGRA:
             # Se NÃO tiver live_price, mantém a diferença D1-D2 (último pregão vs pregão anterior).
             ref_price_for_change = live_price if live_price is not None else last_close_daily
 
             if (not pd.isna(ref_price_for_change)) and (not pd.isna(close_d1)) and float(close_d1) != 0.0:
-                change_pts = float(ref_price_for_change) - float(close_d1)
-                change_pct = change_pts / float(close_d1)
+                # diferença em preço (raw)
+                change_raw = float(ref_price_for_change) - float(close_d1)
+                # percentual sempre calculado em cima do raw
+                change_pct = change_raw / float(close_d1)
+
+                # "change_pts" no Forex = PIPS (para não virar 0 no app)
+                change_pts = _to_pips(sym, change_raw)
             else:
+                change_raw = np.nan
                 change_pts = np.nan
                 change_pct = np.nan
 
@@ -313,8 +340,12 @@ def main():
 
                     # fechamento do pregão anterior e variação
                     "close_d1": _safe_float(close_d1, 6),
-                    "change_pts": _safe_float(change_pts, 6),
-                    "change_pct": _safe_float(change_pct, 8),  # decimal (ex: 0.0042 = +0.42%)
+
+                    # Forex helpers
+                    "pip_size": _safe_float(_pip_size_for_forex(sym), 5),
+                    "change_raw": _safe_float(change_raw, 6),     # ex.: -0.003315
+                    "change_pts": _safe_float(change_pts, 1),     # AGORA EM PIPS ex.: -33.1
+                    "change_pct": _safe_float(change_pct, 8),     # decimal (0.0042 = +0.42%)
 
                     # fechamentos dos últimos 7 pregões (datas em UTC)
                     "daily_7d": daily_7d,
