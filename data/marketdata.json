@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-22T17:03:18Z",
+  "generated_at_utc": "2026-02-22T17:37:16Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -99,18 +99,47 @@
     {
       "symbol": "GBPUSD=X",
       "name": "GBP/USD",
-      "price": null,
-      "close_d1": null,
-      "pip_size": null,
-      "change_raw": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 1.346112,
+      "close_d1": 1.349582,
+      "pip_size": 0.0001,
+      "change_raw": -0.00347,
+      "change_pts": -34.7,
+      "change_pct": -0.00257104,
+      "daily_7d": [
+        {
+          "date": "2026-02-12",
+          "close": 1.3624
+        },
+        {
+          "date": "2026-02-13",
+          "close": 1.362027
+        },
+        {
+          "date": "2026-02-16",
+          "close": 1.364778
+        },
+        {
+          "date": "2026-02-17",
+          "close": 1.362769
+        },
+        {
+          "date": "2026-02-18",
+          "close": 1.356447
+        },
+        {
+          "date": "2026-02-19",
+          "close": 1.349582
+        },
+        {
+          "date": "2026-02-20",
+          "close": 1.346112
+        }
+      ],
+      "vol_annual": 0.07303724,
+      "vol_semiannual": 0.06413521,
+      "vol_quarterly": 0.06677386,
+      "vol_monthly": 0.08850521,
+      "vol_weekly": 0.02711368
     },
     {
       "symbol": "USDCHF=X",
