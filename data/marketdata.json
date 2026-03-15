@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-15T09:48:10Z",
+  "generated_at_utc": "2026-03-15T10:15:41Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -9,18 +9,47 @@
     {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": null,
-      "close_d1": null,
-      "pip_size": null,
-      "change_raw": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 1.142335,
+      "close_d1": 1.154321,
+      "pip_size": 0.0001,
+      "change_raw": -0.011986,
+      "change_pts": -119.9,
+      "change_pct": -0.01038381,
+      "daily_7d": [
+        {
+          "date": "2026-03-05",
+          "close": 1.163562
+        },
+        {
+          "date": "2026-03-06",
+          "close": 1.160807
+        },
+        {
+          "date": "2026-03-09",
+          "close": 1.152326
+        },
+        {
+          "date": "2026-03-10",
+          "close": 1.161723
+        },
+        {
+          "date": "2026-03-11",
+          "close": 1.16113
+        },
+        {
+          "date": "2026-03-12",
+          "close": 1.154321
+        },
+        {
+          "date": "2026-03-13",
+          "close": 1.142335
+        }
+      ],
+      "vol_annual": 0.07646592,
+      "vol_semiannual": 0.05802402,
+      "vol_quarterly": 0.06791626,
+      "vol_monthly": 0.07322451,
+      "vol_weekly": 0.07888162
     },
     {
       "symbol": "USDJPY=X",
