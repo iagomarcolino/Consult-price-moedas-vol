@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-28T23:40:19Z",
+  "generated_at_utc": "2026-03-29T00:00:51Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -279,18 +279,47 @@
     {
       "symbol": "NZDUSD=X",
       "name": "NZD/USD",
-      "price": null,
-      "close_d1": null,
-      "pip_size": null,
-      "change_raw": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 0.574713,
+      "close_d1": 0.57618,
+      "pip_size": 0.0001,
+      "change_raw": -0.001467,
+      "change_pts": -14.7,
+      "change_pct": -0.00254606,
+      "daily_7d": [
+        {
+          "date": "2026-03-20",
+          "close": 0.58683
+        },
+        {
+          "date": "2026-03-23",
+          "close": 0.583121
+        },
+        {
+          "date": "2026-03-24",
+          "close": 0.58536
+        },
+        {
+          "date": "2026-03-25",
+          "close": 0.583809
+        },
+        {
+          "date": "2026-03-26",
+          "close": 0.580639
+        },
+        {
+          "date": "2026-03-27",
+          "close": 0.57618
+        },
+        {
+          "date": "2026-03-28",
+          "close": 0.574713
+        }
+      ],
+      "vol_annual": 0.10048338,
+      "vol_semiannual": 0.08652428,
+      "vol_quarterly": 0.10416873,
+      "vol_monthly": 0.11698548,
+      "vol_weekly": 0.0687938
     },
     {
       "symbol": "EURJPY=X",
