@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-05T16:31:36Z",
+  "generated_at_utc": "2026-04-05T17:05:01Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -324,18 +324,47 @@
     {
       "symbol": "EURJPY=X",
       "name": "EUR/JPY",
-      "price": null,
-      "close_d1": null,
-      "pip_size": null,
-      "change_raw": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 183.931,
+      "close_d1": 183.897995,
+      "pip_size": 0.01,
+      "change_raw": 0.033005,
+      "change_pts": 3.3,
+      "change_pct": 0.00017947,
+      "daily_7d": [
+        {
+          "date": "2026-03-26",
+          "close": 184.270996
+        },
+        {
+          "date": "2026-03-27",
+          "close": 184.223999
+        },
+        {
+          "date": "2026-03-30",
+          "close": 184.126999
+        },
+        {
+          "date": "2026-03-31",
+          "close": 183.123001
+        },
+        {
+          "date": "2026-04-01",
+          "close": 183.475006
+        },
+        {
+          "date": "2026-04-02",
+          "close": 183.897995
+        },
+        {
+          "date": "2026-04-03",
+          "close": 183.931
+        }
+      ],
+      "vol_annual": 0.07843053,
+      "vol_semiannual": 0.06056325,
+      "vol_quarterly": 0.06785788,
+      "vol_monthly": 0.04603504,
+      "vol_weekly": 0.05696765
     },
     {
       "symbol": "GBPJPY=X",
@@ -700,12 +729,12 @@
     {
       "symbol": "USDBRL=X",
       "name": "USD/BRL",
-      "price": 5.156,
+      "price": 5.1581,
       "close_d1": 5.1564,
       "pip_size": 0.0001,
-      "change_raw": -0.0004,
-      "change_pts": -4.0,
-      "change_pct": -7.759e-05,
+      "change_raw": 0.0017,
+      "change_pts": 17.0,
+      "change_pct": 0.00032967,
       "daily_7d": [
         {
           "date": "2026-03-27",
@@ -733,14 +762,14 @@
         },
         {
           "date": "2026-04-05",
-          "close": 5.156
+          "close": 5.1581
         }
       ],
-      "vol_annual": 0.13171324,
-      "vol_semiannual": 0.12390636,
-      "vol_quarterly": 0.12432567,
-      "vol_monthly": 0.16350163,
-      "vol_weekly": 0.11641616
+      "vol_annual": 0.13171383,
+      "vol_semiannual": 0.12390917,
+      "vol_quarterly": 0.12433597,
+      "vol_monthly": 0.16353609,
+      "vol_weekly": 0.11712819
     },
     {
       "symbol": "EURBRL=X",
