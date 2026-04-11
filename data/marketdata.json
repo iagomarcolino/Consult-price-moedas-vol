@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-11T14:50:50Z",
+  "generated_at_utc": "2026-04-11T15:21:19Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -594,18 +594,47 @@
     {
       "symbol": "CHFJPY=X",
       "name": "CHF/JPY",
-      "price": null,
-      "close_d1": null,
-      "pip_size": null,
-      "change_raw": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 201.973999,
+      "close_d1": 200.423004,
+      "pip_size": 0.01,
+      "change_raw": 1.550995,
+      "change_pts": 155.1,
+      "change_pct": 0.00773861,
+      "daily_7d": [
+        {
+          "date": "2026-04-02",
+          "close": 199.825607
+        },
+        {
+          "date": "2026-04-03",
+          "close": 199.649658
+        },
+        {
+          "date": "2026-04-06",
+          "close": 199.397705
+        },
+        {
+          "date": "2026-04-07",
+          "close": 200.065674
+        },
+        {
+          "date": "2026-04-08",
+          "close": 200.753006
+        },
+        {
+          "date": "2026-04-09",
+          "close": 200.423004
+        },
+        {
+          "date": "2026-04-10",
+          "close": 201.973999
+        }
+      ],
+      "vol_annual": 0.07595306,
+      "vol_semiannual": 0.07048103,
+      "vol_quarterly": 0.08085644,
+      "vol_monthly": 0.06875375,
+      "vol_weekly": 0.06071064
     },
     {
       "symbol": "EURAUD=X",
