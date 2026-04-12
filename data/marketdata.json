@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-12T14:07:10Z",
+  "generated_at_utc": "2026-04-12T14:56:37Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -729,18 +729,47 @@
     {
       "symbol": "USDBRL=X",
       "name": "USD/BRL",
-      "price": null,
-      "close_d1": null,
-      "pip_size": null,
-      "change_raw": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 5.0061,
+      "close_d1": 5.0958,
+      "pip_size": 0.0001,
+      "change_raw": -0.0897,
+      "change_pts": -897.0,
+      "change_pct": -0.01760268,
+      "daily_7d": [
+        {
+          "date": "2026-04-03",
+          "close": 5.1564
+        },
+        {
+          "date": "2026-04-06",
+          "close": 5.1579
+        },
+        {
+          "date": "2026-04-07",
+          "close": 5.1383
+        },
+        {
+          "date": "2026-04-08",
+          "close": 5.1506
+        },
+        {
+          "date": "2026-04-09",
+          "close": 5.1002
+        },
+        {
+          "date": "2026-04-10",
+          "close": 5.0958
+        },
+        {
+          "date": "2026-04-12",
+          "close": 5.0061
+        }
+      ],
+      "vol_annual": 0.13194951,
+      "vol_semiannual": 0.11947184,
+      "vol_quarterly": 0.13017461,
+      "vol_monthly": 0.15933443,
+      "vol_weekly": 0.12664334
     },
     {
       "symbol": "EURBRL=X",
