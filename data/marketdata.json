@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-19T06:13:08Z",
+  "generated_at_utc": "2026-04-19T07:47:36Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -840,18 +840,47 @@
     {
       "symbol": "USDSGD=X",
       "name": "USD/SGD",
-      "price": null,
-      "close_d1": null,
-      "pip_size": null,
-      "change_raw": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 1.2696,
+      "close_d1": 1.27312,
+      "pip_size": 0.0001,
+      "change_raw": -0.00352,
+      "change_pts": -35.2,
+      "change_pct": -0.00276487,
+      "daily_7d": [
+        {
+          "date": "2026-04-10",
+          "close": 1.27329
+        },
+        {
+          "date": "2026-04-13",
+          "close": 1.27767
+        },
+        {
+          "date": "2026-04-14",
+          "close": 1.2715
+        },
+        {
+          "date": "2026-04-15",
+          "close": 1.27079
+        },
+        {
+          "date": "2026-04-16",
+          "close": 1.27065
+        },
+        {
+          "date": "2026-04-17",
+          "close": 1.27312
+        },
+        {
+          "date": "2026-04-19",
+          "close": 1.2696
+        }
+      ],
+      "vol_annual": 0.05054009,
+      "vol_semiannual": 0.04262797,
+      "vol_quarterly": 0.05354629,
+      "vol_monthly": 0.05347182,
+      "vol_weekly": 0.02116462
     },
     {
       "symbol": "USDHKD=X",
