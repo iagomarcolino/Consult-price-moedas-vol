@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-02T21:34:40Z",
+  "generated_at_utc": "2026-05-02T22:20:57Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -234,18 +234,47 @@
     {
       "symbol": "USDCAD=X",
       "name": "USD/CAD",
-      "price": null,
-      "close_d1": null,
-      "pip_size": null,
-      "change_raw": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 1.3588,
+      "close_d1": 1.35796,
+      "pip_size": 0.0001,
+      "change_raw": 0.00084,
+      "change_pts": 8.4,
+      "change_pct": 0.00061862,
+      "daily_7d": [
+        {
+          "date": "2026-04-24",
+          "close": 1.36984
+        },
+        {
+          "date": "2026-04-27",
+          "close": 1.3676
+        },
+        {
+          "date": "2026-04-28",
+          "close": 1.36215
+        },
+        {
+          "date": "2026-04-29",
+          "close": 1.3679
+        },
+        {
+          "date": "2026-04-30",
+          "close": 1.36713
+        },
+        {
+          "date": "2026-05-01",
+          "close": 1.35796
+        },
+        {
+          "date": "2026-05-02",
+          "close": 1.3588
+        }
+      ],
+      "vol_annual": 0.05698537,
+      "vol_semiannual": 0.04749238,
+      "vol_quarterly": 0.0451889,
+      "vol_monthly": 0.04863427,
+      "vol_weekly": 0.06704451
     },
     {
       "symbol": "NZDUSD=X",
