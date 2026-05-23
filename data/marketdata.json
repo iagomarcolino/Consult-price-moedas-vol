@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-23T15:52:47Z",
+  "generated_at_utc": "2026-05-23T16:52:16Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -99,17 +99,13 @@
     {
       "symbol": "GBPUSD=X",
       "name": "GBP/USD",
-      "price": 1.343292,
-      "close_d1": 1.3434,
+      "price": 1.343382,
+      "close_d1": 1.343256,
       "pip_size": 0.0001,
-      "change_raw": -0.000108,
-      "change_pts": -1.1,
-      "change_pct": -8.066e-05,
+      "change_raw": 0.000126,
+      "change_pts": 1.3,
+      "change_pct": 9.398e-05,
       "daily_7d": [
-        {
-          "date": "2026-05-14",
-          "close": 1.352631
-        },
         {
           "date": "2026-05-15",
           "close": 1.339136
@@ -132,29 +128,29 @@
         },
         {
           "date": "2026-05-22",
-          "close": 1.343292
+          "close": 1.343256
+        },
+        {
+          "date": "2026-05-23",
+          "close": 1.343382
         }
       ],
-      "vol_annual": 0.07407238,
-      "vol_semiannual": 0.07324814,
-      "vol_quarterly": 0.07956461,
-      "vol_monthly": 0.07303663,
-      "vol_weekly": 0.08141959
+      "vol_annual": 0.07397836,
+      "vol_semiannual": 0.07295482,
+      "vol_quarterly": 0.07892112,
+      "vol_monthly": 0.07119123,
+      "vol_weekly": 0.07231674
     },
     {
       "symbol": "USDCHF=X",
       "name": "USD/CHF",
       "price": 0.7847,
-      "close_d1": 0.78692,
+      "close_d1": 0.7865,
       "pip_size": 0.0001,
-      "change_raw": -0.00222,
-      "change_pts": -22.2,
-      "change_pct": -0.00282117,
+      "change_raw": -0.0018,
+      "change_pts": -18.0,
+      "change_pct": -0.00228862,
       "daily_7d": [
-        {
-          "date": "2026-05-14",
-          "close": 0.7815
-        },
         {
           "date": "2026-05-15",
           "close": 0.78418
@@ -177,14 +173,18 @@
         },
         {
           "date": "2026-05-22",
+          "close": 0.7865
+        },
+        {
+          "date": "2026-05-23",
           "close": 0.7847
         }
       ],
-      "vol_annual": 0.08555543,
-      "vol_semiannual": 0.07721108,
-      "vol_quarterly": 0.072134,
-      "vol_monthly": 0.06365145,
-      "vol_weekly": 0.06743433
+      "vol_annual": 0.08543792,
+      "vol_semiannual": 0.07687025,
+      "vol_quarterly": 0.07148183,
+      "vol_monthly": 0.06179174,
+      "vol_weekly": 0.05736381
     },
     {
       "symbol": "AUDUSD=X",
