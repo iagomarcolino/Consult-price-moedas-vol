@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-30T10:51:19Z",
+  "generated_at_utc": "2026-05-30T11:59:31Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -144,13 +144,17 @@
     {
       "symbol": "USDCHF=X",
       "name": "USD/CHF",
-      "price": 0.7797,
-      "close_d1": 0.78366,
+      "price": 0.78075,
+      "close_d1": 0.78786,
       "pip_size": 0.0001,
-      "change_raw": -0.00396,
-      "change_pts": -39.6,
-      "change_pct": -0.00505323,
+      "change_raw": -0.00711,
+      "change_pts": -71.1,
+      "change_pct": -0.00902445,
       "daily_7d": [
+        {
+          "date": "2026-05-21",
+          "close": 0.78692
+        },
         {
           "date": "2026-05-22",
           "close": 0.7865
@@ -173,18 +177,14 @@
         },
         {
           "date": "2026-05-29",
-          "close": 0.78366
-        },
-        {
-          "date": "2026-05-30",
-          "close": 0.7797
+          "close": 0.78075
         }
       ],
-      "vol_annual": 0.08547088,
-      "vol_semiannual": 0.07759355,
-      "vol_quarterly": 0.06900024,
-      "vol_monthly": 0.05469854,
-      "vol_weekly": 0.0674605
+      "vol_annual": 0.0856871,
+      "vol_semiannual": 0.07827675,
+      "vol_quarterly": 0.07039115,
+      "vol_monthly": 0.05935146,
+      "vol_weekly": 0.09229636
     },
     {
       "symbol": "AUDUSD=X",
@@ -594,13 +594,17 @@
     {
       "symbol": "CHFJPY=X",
       "name": "CHF/JPY",
-      "price": 204.009995,
-      "close_d1": 203.18248,
+      "price": 203.925995,
+      "close_d1": 202.515289,
       "pip_size": 0.01,
-      "change_raw": 0.827515,
-      "change_pts": 82.8,
-      "change_pct": 0.00407277,
+      "change_raw": 1.410706,
+      "change_pts": 141.1,
+      "change_pct": 0.00696592,
       "daily_7d": [
+        {
+          "date": "2026-05-21",
+          "close": 201.820007
+        },
         {
           "date": "2026-05-22",
           "close": 202.110199
@@ -623,18 +627,14 @@
         },
         {
           "date": "2026-05-29",
-          "close": 203.18248
-        },
-        {
-          "date": "2026-05-30",
-          "close": 204.009995
+          "close": 203.925995
         }
       ],
-      "vol_annual": 0.07395617,
-      "vol_semiannual": 0.06774413,
-      "vol_quarterly": 0.0552324,
-      "vol_monthly": 0.0451354,
-      "vol_weekly": 0.04185688
+      "vol_annual": 0.07414115,
+      "vol_semiannual": 0.06833003,
+      "vol_quarterly": 0.05645555,
+      "vol_monthly": 0.0492109,
+      "vol_weekly": 0.06390165
     },
     {
       "symbol": "EURAUD=X",
