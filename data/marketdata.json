@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-06T22:17:52Z",
+  "generated_at_utc": "2026-06-06T23:32:28Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -369,18 +369,47 @@
     {
       "symbol": "GBPJPY=X",
       "name": "GBP/JPY",
-      "price": null,
-      "close_d1": null,
-      "pip_size": null,
-      "change_raw": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 213.873993,
+      "close_d1": 214.742996,
+      "pip_size": 0.01,
+      "change_raw": -0.869003,
+      "change_pts": -86.9,
+      "change_pct": -0.00404671,
+      "daily_7d": [
+        {
+          "date": "2026-05-28",
+          "close": 214.063004
+        },
+        {
+          "date": "2026-05-29",
+          "close": 214.119995
+        },
+        {
+          "date": "2026-06-01",
+          "close": 214.337997
+        },
+        {
+          "date": "2026-06-02",
+          "close": 214.871994
+        },
+        {
+          "date": "2026-06-03",
+          "close": 215.190002
+        },
+        {
+          "date": "2026-06-04",
+          "close": 214.742996
+        },
+        {
+          "date": "2026-06-05",
+          "close": 213.873993
+        }
+      ],
+      "vol_annual": 0.07886361,
+      "vol_semiannual": 0.06618329,
+      "vol_quarterly": 0.05580473,
+      "vol_monthly": 0.05328041,
+      "vol_weekly": 0.04847222
     },
     {
       "symbol": "EURGBP=X",
@@ -946,13 +975,17 @@
     {
       "symbol": "USDZAR=X",
       "name": "USD/ZAR",
-      "price": 16.5541,
-      "close_d1": 16.3069,
+      "price": 16.567499,
+      "close_d1": 16.3391,
       "pip_size": 0.0001,
-      "change_raw": 0.2472,
-      "change_pts": 2472.0,
-      "change_pct": 0.01515923,
+      "change_raw": 0.228399,
+      "change_pts": 2284.0,
+      "change_pct": 0.01397869,
       "daily_7d": [
+        {
+          "date": "2026-05-28",
+          "close": 16.369499
+        },
         {
           "date": "2026-05-29",
           "close": 16.219231
@@ -976,17 +1009,13 @@
         {
           "date": "2026-06-05",
           "close": 16.3069
-        },
-        {
-          "date": "2026-06-06",
-          "close": 16.5541
         }
       ],
-      "vol_annual": 0.29222472,
-      "vol_semiannual": 0.13820524,
-      "vol_quarterly": 0.14619611,
-      "vol_monthly": 0.11509443,
-      "vol_weekly": 0.11242871
+      "vol_annual": 0.29234045,
+      "vol_semiannual": 0.13702957,
+      "vol_quarterly": 0.14424428,
+      "vol_monthly": 0.10454664,
+      "vol_weekly": 0.06275928
     }
   ]
 }
