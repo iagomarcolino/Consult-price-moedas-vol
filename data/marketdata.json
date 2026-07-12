@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-12T18:29:24Z",
+  "generated_at_utc": "2026-07-12T19:41:34Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -9,17 +9,13 @@
     {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.141944,
-      "close_d1": 1.142204,
+      "price": 1.140771,
+      "close_d1": 1.143341,
       "pip_size": 0.0001,
-      "change_raw": -0.000261,
-      "change_pts": -2.6,
-      "change_pct": -0.00022836,
+      "change_raw": -0.002569,
+      "change_pts": -25.7,
+      "change_pct": -0.00224731,
       "daily_7d": [
-        {
-          "date": "2026-07-02",
-          "close": 1.137799
-        },
         {
           "date": "2026-07-03",
           "close": 1.14227
@@ -42,14 +38,18 @@
         },
         {
           "date": "2026-07-10",
-          "close": 1.141944
+          "close": 1.143341
+        },
+        {
+          "date": "2026-07-12",
+          "close": 1.140771
         }
       ],
-      "vol_annual": 0.07436446,
-      "vol_semiannual": 0.06513975,
-      "vol_quarterly": 0.04455124,
-      "vol_monthly": 0.04938836,
-      "vol_weekly": 0.03949627
+      "vol_annual": 0.0742981,
+      "vol_semiannual": 0.06474143,
+      "vol_quarterly": 0.04415259,
+      "vol_monthly": 0.04878642,
+      "vol_weekly": 0.03404471
     },
     {
       "symbol": "USDJPY=X",
@@ -91,20 +91,20 @@
         }
       ],
       "vol_annual": 0.09026468,
-      "vol_semiannual": 0.07563767,
-      "vol_quarterly": 0.05551301,
-      "vol_monthly": 0.04328923,
-      "vol_weekly": 0.06194279
+      "vol_semiannual": 0.07597038,
+      "vol_quarterly": 0.05505738,
+      "vol_monthly": 0.04254242,
+      "vol_weekly": 0.06326363
     },
     {
       "symbol": "GBPUSD=X",
       "name": "GBP/USD",
-      "price": 1.340141,
+      "price": 1.338939,
       "close_d1": 1.341562,
       "pip_size": 0.0001,
-      "change_raw": -0.00142,
-      "change_pts": -14.2,
-      "change_pct": -0.00105875,
+      "change_raw": -0.002623,
+      "change_pts": -26.2,
+      "change_pct": -0.00195489,
       "daily_7d": [
         {
           "date": "2026-07-03",
@@ -132,69 +132,40 @@
         },
         {
           "date": "2026-07-12",
-          "close": 1.340141
+          "close": 1.338939
         }
       ],
-      "vol_annual": 0.0727524,
-      "vol_semiannual": 0.07281263,
-      "vol_quarterly": 0.0589789,
-      "vol_monthly": 0.06092428,
-      "vol_weekly": 0.05880186
+      "vol_annual": 0.07267975,
+      "vol_semiannual": 0.07232221,
+      "vol_quarterly": 0.0581274,
+      "vol_monthly": 0.05900119,
+      "vol_weekly": 0.051192
     },
     {
       "symbol": "USDCHF=X",
       "name": "USD/CHF",
-      "price": 0.8078,
-      "close_d1": 0.80654,
-      "pip_size": 0.0001,
-      "change_raw": 0.00126,
-      "change_pts": 12.6,
-      "change_pct": 0.00156221,
-      "daily_7d": [
-        {
-          "date": "2026-07-03",
-          "close": 0.80441
-        },
-        {
-          "date": "2026-07-06",
-          "close": 0.8038
-        },
-        {
-          "date": "2026-07-07",
-          "close": 0.80508
-        },
-        {
-          "date": "2026-07-08",
-          "close": 0.80882
-        },
-        {
-          "date": "2026-07-09",
-          "close": 0.80806
-        },
-        {
-          "date": "2026-07-10",
-          "close": 0.80654
-        },
-        {
-          "date": "2026-07-11",
-          "close": 0.8078
-        }
-      ],
-      "vol_annual": 0.08508078,
-      "vol_semiannual": 0.07820266,
-      "vol_quarterly": 0.06003888,
-      "vol_monthly": 0.05291735,
-      "vol_weekly": 0.04628389
+      "price": null,
+      "close_d1": null,
+      "pip_size": null,
+      "change_raw": null,
+      "change_pts": null,
+      "change_pct": null,
+      "daily_7d": [],
+      "vol_annual": null,
+      "vol_semiannual": null,
+      "vol_quarterly": null,
+      "vol_monthly": null,
+      "vol_weekly": null
     },
     {
       "symbol": "AUDUSD=X",
       "name": "AUD/USD",
-      "price": 0.695507,
+      "price": 0.695169,
       "close_d1": 0.69444,
       "pip_size": 0.0001,
-      "change_raw": 0.001067,
-      "change_pts": 10.7,
-      "change_pct": 0.00153629,
+      "change_raw": 0.000728,
+      "change_pts": 7.3,
+      "change_pct": 0.00104894,
       "daily_7d": [
         {
           "date": "2026-07-03",
@@ -222,24 +193,24 @@
         },
         {
           "date": "2026-07-12",
-          "close": 0.695507
+          "close": 0.695169
         }
       ],
-      "vol_annual": 0.09936395,
-      "vol_semiannual": 0.10309509,
-      "vol_quarterly": 0.0746887,
-      "vol_monthly": 0.05970255,
-      "vol_weekly": 0.05795388
+      "vol_annual": 0.09923968,
+      "vol_semiannual": 0.10234854,
+      "vol_quarterly": 0.07486803,
+      "vol_monthly": 0.0593936,
+      "vol_weekly": 0.04670064
     },
     {
       "symbol": "USDCAD=X",
       "name": "USD/CAD",
-      "price": 1.4153,
+      "price": 1.4161,
       "close_d1": 1.41624,
       "pip_size": 0.0001,
-      "change_raw": -0.00094,
-      "change_pts": -9.4,
-      "change_pct": -0.0006637,
+      "change_raw": -0.00014,
+      "change_pts": -1.4,
+      "change_pct": -9.882e-05,
       "daily_7d": [
         {
           "date": "2026-07-03",
@@ -267,24 +238,24 @@
         },
         {
           "date": "2026-07-12",
-          "close": 1.4153
+          "close": 1.4161
         }
       ],
-      "vol_annual": 0.0540702,
-      "vol_semiannual": 0.04555949,
-      "vol_quarterly": 0.03623099,
-      "vol_monthly": 0.03747173,
-      "vol_weekly": 0.02070786
+      "vol_annual": 0.05400156,
+      "vol_semiannual": 0.04520407,
+      "vol_quarterly": 0.03617301,
+      "vol_monthly": 0.03596538,
+      "vol_weekly": 0.01781212
     },
     {
       "symbol": "NZDUSD=X",
       "name": "NZD/USD",
-      "price": 0.576302,
+      "price": 0.576369,
       "close_d1": 0.576229,
       "pip_size": 0.0001,
-      "change_raw": 7.3e-05,
-      "change_pts": 0.7,
-      "change_pct": 0.00012671,
+      "change_raw": 0.000139,
+      "change_pts": 1.4,
+      "change_pct": 0.00024205,
       "daily_7d": [
         {
           "date": "2026-07-03",
@@ -312,29 +283,25 @@
         },
         {
           "date": "2026-07-12",
-          "close": 0.576302
+          "close": 0.576369
         }
       ],
-      "vol_annual": 0.09889422,
-      "vol_semiannual": 0.10157296,
-      "vol_quarterly": 0.08868178,
-      "vol_monthly": 0.07427668,
-      "vol_weekly": 0.10940312
+      "vol_annual": 0.09876875,
+      "vol_semiannual": 0.10087499,
+      "vol_quarterly": 0.08733088,
+      "vol_monthly": 0.07238186,
+      "vol_weekly": 0.08428651
     },
     {
       "symbol": "EURJPY=X",
       "name": "EUR/JPY",
-      "price": 184.554001,
-      "close_d1": 185.632996,
+      "price": 184.255997,
+      "close_d1": 185.628998,
       "pip_size": 0.01,
-      "change_raw": -1.078995,
-      "change_pts": -107.9,
-      "change_pct": -0.00581252,
+      "change_raw": -1.373001,
+      "change_pts": -137.3,
+      "change_pct": -0.00739648,
       "daily_7d": [
-        {
-          "date": "2026-07-02",
-          "close": 184.916
-        },
         {
           "date": "2026-07-03",
           "close": 184.403
@@ -357,29 +324,29 @@
         },
         {
           "date": "2026-07-10",
-          "close": 184.554001
+          "close": 185.628998
+        },
+        {
+          "date": "2026-07-12",
+          "close": 184.255997
         }
       ],
-      "vol_annual": 0.07073989,
-      "vol_semiannual": 0.06026084,
-      "vol_quarterly": 0.05247104,
-      "vol_monthly": 0.05450311,
-      "vol_weekly": 0.06841518
+      "vol_annual": 0.07075022,
+      "vol_semiannual": 0.0606216,
+      "vol_quarterly": 0.05245593,
+      "vol_monthly": 0.0543945,
+      "vol_weekly": 0.07282109
     },
     {
       "symbol": "GBPJPY=X",
       "name": "GBP/JPY",
-      "price": 216.688004,
-      "close_d1": 217.692993,
+      "price": 216.391006,
+      "close_d1": 217.778,
       "pip_size": 0.01,
-      "change_raw": -1.00499,
-      "change_pts": -100.5,
-      "change_pct": -0.00461655,
+      "change_raw": -1.386993,
+      "change_pts": -138.7,
+      "change_pct": -0.00636884,
       "daily_7d": [
-        {
-          "date": "2026-07-02",
-          "close": 215.826996
-        },
         {
           "date": "2026-07-03",
           "close": 215.347
@@ -402,29 +369,29 @@
         },
         {
           "date": "2026-07-10",
-          "close": 216.688004
+          "close": 217.778
+        },
+        {
+          "date": "2026-07-12",
+          "close": 216.391006
         }
       ],
-      "vol_annual": 0.07719275,
-      "vol_semiannual": 0.06540787,
-      "vol_quarterly": 0.0560371,
-      "vol_monthly": 0.06052147,
-      "vol_weekly": 0.07561023
+      "vol_annual": 0.07717853,
+      "vol_semiannual": 0.06562341,
+      "vol_quarterly": 0.05585103,
+      "vol_monthly": 0.05982093,
+      "vol_weekly": 0.08433056
     },
     {
       "symbol": "EURGBP=X",
       "name": "EUR/GBP",
-      "price": 0.85167,
-      "close_d1": 0.85249,
+      "price": 0.85172,
+      "close_d1": 0.85232,
       "pip_size": 0.0001,
-      "change_raw": -0.00082,
-      "change_pts": -8.2,
-      "change_pct": -0.00096187,
+      "change_raw": -0.0006,
+      "change_pts": -6.0,
+      "change_pct": -0.00070401,
       "daily_7d": [
-        {
-          "date": "2026-07-02",
-          "close": 0.85653
-        },
         {
           "date": "2026-07-03",
           "close": 0.8561
@@ -447,29 +414,29 @@
         },
         {
           "date": "2026-07-10",
-          "close": 0.85167
+          "close": 0.85232
+        },
+        {
+          "date": "2026-07-12",
+          "close": 0.85172
         }
       ],
-      "vol_annual": 0.04445944,
-      "vol_semiannual": 0.03566633,
-      "vol_quarterly": 0.03160696,
-      "vol_monthly": 0.03611657,
-      "vol_weekly": 0.0166505
+      "vol_annual": 0.04440015,
+      "vol_semiannual": 0.0353706,
+      "vol_quarterly": 0.0311654,
+      "vol_monthly": 0.03431435,
+      "vol_weekly": 0.01903696
     },
     {
       "symbol": "AUDJPY=X",
       "name": "AUD/JPY",
-      "price": 112.417,
-      "close_d1": 112.731003,
+      "price": 112.315002,
+      "close_d1": 112.722,
       "pip_size": 0.01,
-      "change_raw": -0.314003,
-      "change_pts": -31.4,
-      "change_pct": -0.00278542,
+      "change_raw": -0.406998,
+      "change_pts": -40.7,
+      "change_pct": -0.00361063,
       "daily_7d": [
-        {
-          "date": "2026-07-02",
-          "close": 111.991997
-        },
         {
           "date": "2026-07-03",
           "close": 111.652
@@ -492,29 +459,29 @@
         },
         {
           "date": "2026-07-10",
-          "close": 112.417
+          "close": 112.722
+        },
+        {
+          "date": "2026-07-12",
+          "close": 112.315002
         }
       ],
-      "vol_annual": 0.10925506,
-      "vol_semiannual": 0.09161205,
-      "vol_quarterly": 0.06821504,
-      "vol_monthly": 0.07008715,
-      "vol_weekly": 0.05537668
+      "vol_annual": 0.10913403,
+      "vol_semiannual": 0.09189099,
+      "vol_quarterly": 0.06863137,
+      "vol_monthly": 0.06787361,
+      "vol_weekly": 0.06818061
     },
     {
       "symbol": "NZDJPY=X",
       "name": "NZD/JPY",
-      "price": 93.157997,
-      "close_d1": 92.872002,
+      "price": 93.122002,
+      "close_d1": 93.510002,
       "pip_size": 0.01,
-      "change_raw": 0.285995,
-      "change_pts": 28.6,
-      "change_pct": 0.00307946,
+      "change_raw": -0.388,
+      "change_pts": -38.8,
+      "change_pct": -0.00414929,
       "daily_7d": [
-        {
-          "date": "2026-07-02",
-          "close": 92.224998
-        },
         {
           "date": "2026-07-03",
           "close": 91.889999
@@ -537,29 +504,29 @@
         },
         {
           "date": "2026-07-10",
-          "close": 93.157997
+          "close": 93.510002
+        },
+        {
+          "date": "2026-07-12",
+          "close": 93.122002
         }
       ],
-      "vol_annual": 0.09564052,
-      "vol_semiannual": 0.08801997,
-      "vol_quarterly": 0.0770292,
-      "vol_monthly": 0.07259462,
-      "vol_weekly": 0.08909153
+      "vol_annual": 0.09570239,
+      "vol_semiannual": 0.0880823,
+      "vol_quarterly": 0.07730024,
+      "vol_monthly": 0.07445969,
+      "vol_weekly": 0.08972449
     },
     {
       "symbol": "CADJPY=X",
       "name": "CAD/JPY",
-      "price": 114.213997,
-      "close_d1": 114.720001,
+      "price": 114.098999,
+      "close_d1": 114.591003,
       "pip_size": 0.01,
-      "change_raw": -0.506004,
-      "change_pts": -50.6,
-      "change_pct": -0.00441078,
+      "change_raw": -0.492004,
+      "change_pts": -49.2,
+      "change_pct": -0.00429357,
       "daily_7d": [
-        {
-          "date": "2026-07-02",
-          "close": 114.311996
-        },
         {
           "date": "2026-07-03",
           "close": 113.765999
@@ -582,29 +549,29 @@
         },
         {
           "date": "2026-07-10",
-          "close": 114.213997
+          "close": 114.591003
+        },
+        {
+          "date": "2026-07-12",
+          "close": 114.098999
         }
       ],
-      "vol_annual": 0.08504945,
-      "vol_semiannual": 0.06713885,
-      "vol_quarterly": 0.05119035,
-      "vol_monthly": 0.04842821,
-      "vol_weekly": 0.06767141
+      "vol_annual": 0.08494317,
+      "vol_semiannual": 0.06746192,
+      "vol_quarterly": 0.05068962,
+      "vol_monthly": 0.04594961,
+      "vol_weekly": 0.05507622
     },
     {
       "symbol": "CHFJPY=X",
       "name": "CHF/JPY",
-      "price": 199.973007,
-      "close_d1": 201.113663,
+      "price": 200.001007,
+      "close_d1": 201.274994,
       "pip_size": 0.01,
-      "change_raw": -1.140656,
-      "change_pts": -114.1,
-      "change_pct": -0.0056717,
+      "change_raw": -1.273987,
+      "change_pts": -127.4,
+      "change_pct": -0.00632958,
       "daily_7d": [
-        {
-          "date": "2026-07-02",
-          "close": 200.847641
-        },
         {
           "date": "2026-07-03",
           "close": 200.677994
@@ -627,29 +594,29 @@
         },
         {
           "date": "2026-07-10",
-          "close": 199.973007
+          "close": 201.274994
+        },
+        {
+          "date": "2026-07-12",
+          "close": 200.001007
         }
       ],
-      "vol_annual": 0.06962695,
-      "vol_semiannual": 0.06672079,
-      "vol_quarterly": 0.04886014,
-      "vol_monthly": 0.04744516,
-      "vol_weekly": 0.06455915
+      "vol_annual": 0.06957821,
+      "vol_semiannual": 0.06632851,
+      "vol_quarterly": 0.04843544,
+      "vol_monthly": 0.04629941,
+      "vol_weekly": 0.06051911
     },
     {
       "symbol": "EURAUD=X",
       "name": "EUR/AUD",
-      "price": 1.64114,
-      "close_d1": 1.64661,
+      "price": 1.6401,
+      "close_d1": 1.6461,
       "pip_size": 0.0001,
-      "change_raw": -0.00547,
-      "change_pts": -54.7,
-      "change_pct": -0.003322,
+      "change_raw": -0.006,
+      "change_pts": -60.0,
+      "change_pct": -0.003645,
       "daily_7d": [
-        {
-          "date": "2026-07-02",
-          "close": 1.65111
-        },
         {
           "date": "2026-07-03",
           "close": 1.6516
@@ -672,24 +639,28 @@
         },
         {
           "date": "2026-07-10",
-          "close": 1.64114
+          "close": 1.6461
+        },
+        {
+          "date": "2026-07-12",
+          "close": 1.6401
         }
       ],
-      "vol_annual": 0.07662887,
-      "vol_semiannual": 0.06595039,
-      "vol_quarterly": 0.04841742,
-      "vol_monthly": 0.04710332,
-      "vol_weekly": 0.03699578
+      "vol_annual": 0.07654115,
+      "vol_semiannual": 0.06567495,
+      "vol_quarterly": 0.04910487,
+      "vol_monthly": 0.04531147,
+      "vol_weekly": 0.030396
     },
     {
       "symbol": "AUDNZD=X",
       "name": "AUD/NZD",
-      "price": 1.20622,
+      "price": 1.20559,
       "close_d1": 1.20494,
       "pip_size": 0.0001,
-      "change_raw": 0.00128,
-      "change_pts": 12.8,
-      "change_pct": 0.00106235,
+      "change_raw": 0.00065,
+      "change_pts": 6.5,
+      "change_pct": 0.00053949,
       "daily_7d": [
         {
           "date": "2026-07-03",
@@ -717,14 +688,14 @@
         },
         {
           "date": "2026-07-12",
-          "close": 1.20622
+          "close": 1.20559
         }
       ],
-      "vol_annual": 0.04230117,
-      "vol_semiannual": 0.05152412,
-      "vol_quarterly": 0.05071363,
-      "vol_monthly": 0.04870734,
-      "vol_weekly": 0.05463482
+      "vol_annual": 0.04224821,
+      "vol_semiannual": 0.05176745,
+      "vol_quarterly": 0.05095705,
+      "vol_monthly": 0.04627116,
+      "vol_weekly": 0.06442253
     },
     {
       "symbol": "USDBRL=X",
@@ -765,26 +736,22 @@
           "close": 5.1075
         }
       ],
-      "vol_annual": 0.12648922,
-      "vol_semiannual": 0.12613374,
-      "vol_quarterly": 0.1221261,
-      "vol_monthly": 0.08894174,
-      "vol_weekly": 0.08833935
+      "vol_annual": 0.12638388,
+      "vol_semiannual": 0.12530536,
+      "vol_quarterly": 0.12068567,
+      "vol_monthly": 0.09461488,
+      "vol_weekly": 0.08228073
     },
     {
       "symbol": "EURBRL=X",
       "name": "EUR/BRL",
-      "price": 5.8296,
-      "close_d1": 5.892752,
+      "price": 5.8255,
+      "close_d1": 5.865103,
       "pip_size": 0.0001,
-      "change_raw": -0.063152,
-      "change_pts": -631.5,
-      "change_pct": -0.01071695,
+      "change_raw": -0.039603,
+      "change_pts": -396.0,
+      "change_pct": -0.00675227,
       "daily_7d": [
-        {
-          "date": "2026-07-02",
-          "close": 5.934718
-        },
         {
           "date": "2026-07-03",
           "close": 5.959476
@@ -807,19 +774,23 @@
         },
         {
           "date": "2026-07-10",
-          "close": 5.8296
+          "close": 5.865103
+        },
+        {
+          "date": "2026-07-12",
+          "close": 5.8255
         }
       ],
-      "vol_annual": 0.12791239,
-      "vol_semiannual": 0.09786928,
-      "vol_quarterly": 0.10003543,
-      "vol_monthly": 0.08223041,
-      "vol_weekly": 0.10993879
+      "vol_annual": 0.12762884,
+      "vol_semiannual": 0.09659266,
+      "vol_quarterly": 0.09753767,
+      "vol_monthly": 0.07818542,
+      "vol_weekly": 0.06824396
     },
     {
       "symbol": "USDCNH=X",
       "name": "USD/CNH",
-      "price": 6.781,
+      "price": 6.77743,
       "close_d1": null,
       "pip_size": 0.0001,
       "change_raw": null,
@@ -827,8 +798,8 @@
       "change_pct": null,
       "daily_7d": [
         {
-          "date": "2026-07-10",
-          "close": 6.781
+          "date": "2026-07-12",
+          "close": 6.77743
         }
       ],
       "vol_annual": null,
@@ -840,12 +811,12 @@
     {
       "symbol": "USDSGD=X",
       "name": "USD/SGD",
-      "price": 1.2916,
+      "price": 1.2912,
       "close_d1": 1.292,
       "pip_size": 0.0001,
-      "change_raw": -0.0004,
-      "change_pts": -4.0,
-      "change_pct": -0.00030965,
+      "change_raw": -0.0008,
+      "change_pts": -8.0,
+      "change_pct": -0.00061921,
       "daily_7d": [
         {
           "date": "2026-07-03",
@@ -873,24 +844,24 @@
         },
         {
           "date": "2026-07-12",
-          "close": 1.2916
+          "close": 1.2912
         }
       ],
-      "vol_annual": 0.04724528,
-      "vol_semiannual": 0.04453823,
-      "vol_quarterly": 0.03425582,
-      "vol_monthly": 0.02632063,
-      "vol_weekly": 0.02093106
+      "vol_annual": 0.04718693,
+      "vol_semiannual": 0.04420899,
+      "vol_quarterly": 0.03375408,
+      "vol_monthly": 0.02682755,
+      "vol_weekly": 0.01557693
     },
     {
       "symbol": "USDHKD=X",
       "name": "USD/HKD",
-      "price": 7.8396,
+      "price": 7.839,
       "close_d1": 7.8358,
       "pip_size": 0.0001,
-      "change_raw": 0.0038,
-      "change_pts": 38.0,
-      "change_pct": 0.00048494,
+      "change_raw": 0.0032,
+      "change_pts": 32.0,
+      "change_pct": 0.00040839,
       "daily_7d": [
         {
           "date": "2026-07-03",
@@ -918,14 +889,14 @@
         },
         {
           "date": "2026-07-12",
-          "close": 7.8396
+          "close": 7.839
         }
       ],
-      "vol_annual": 0.00775807,
-      "vol_semiannual": 0.00672252,
-      "vol_quarterly": 0.00499742,
-      "vol_monthly": 0.0036069,
-      "vol_weekly": 0.00258052
+      "vol_annual": 0.00775431,
+      "vol_semiannual": 0.00668945,
+      "vol_quarterly": 0.00499152,
+      "vol_monthly": 0.00372947,
+      "vol_weekly": 0.00505534
     },
     {
       "symbol": "USDINR=X",
@@ -966,21 +937,21 @@
           "close": 95.370003
         }
       ],
-      "vol_annual": 0.06129114,
-      "vol_semiannual": 0.08291843,
-      "vol_quarterly": 0.07050956,
-      "vol_monthly": 0.0604633,
-      "vol_weekly": 0.06202421
+      "vol_annual": 0.06121458,
+      "vol_semiannual": 0.08239407,
+      "vol_quarterly": 0.06949127,
+      "vol_monthly": 0.06221469,
+      "vol_weekly": 0.05516651
     },
     {
       "symbol": "USDZAR=X",
       "name": "USD/ZAR",
-      "price": 16.346701,
+      "price": 16.32,
       "close_d1": 16.315001,
       "pip_size": 0.0001,
-      "change_raw": 0.0317,
-      "change_pts": 317.0,
-      "change_pct": 0.00194301,
+      "change_raw": 0.004999,
+      "change_pts": 50.0,
+      "change_pct": 0.00030641,
       "daily_7d": [
         {
           "date": "2026-07-03",
@@ -1008,14 +979,14 @@
         },
         {
           "date": "2026-07-12",
-          "close": 16.346701
+          "close": 16.32
         }
       ],
-      "vol_annual": 0.2921557,
-      "vol_semiannual": 0.14348808,
-      "vol_quarterly": 0.11201766,
-      "vol_monthly": 0.07856668,
-      "vol_weekly": 0.1065885
+      "vol_annual": 0.29178516,
+      "vol_semiannual": 0.14249792,
+      "vol_quarterly": 0.11026529,
+      "vol_monthly": 0.07879505,
+      "vol_weekly": 0.08136567
     }
   ]
 }
