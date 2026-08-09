@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-09T17:00:02Z",
+  "generated_at_utc": "2026-08-09T17:38:44Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -930,18 +930,47 @@
     {
       "symbol": "USDINR=X",
       "name": "USD/INR",
-      "price": null,
-      "close_d1": null,
-      "pip_size": null,
-      "change_raw": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 95.197998,
+      "close_d1": 95.311897,
+      "pip_size": 0.0001,
+      "change_raw": -0.113899,
+      "change_pts": -1139.0,
+      "change_pct": -0.00119502,
+      "daily_7d": [
+        {
+          "date": "2026-07-31",
+          "close": 95.684799
+        },
+        {
+          "date": "2026-08-03",
+          "close": 95.402199
+        },
+        {
+          "date": "2026-08-04",
+          "close": 95.331596
+        },
+        {
+          "date": "2026-08-05",
+          "close": 95.097198
+        },
+        {
+          "date": "2026-08-06",
+          "close": 95.077301
+        },
+        {
+          "date": "2026-08-07",
+          "close": 95.311897
+        },
+        {
+          "date": "2026-08-09",
+          "close": 95.197998
+        }
+      ],
+      "vol_annual": 0.06193239,
+      "vol_semiannual": 0.08068966,
+      "vol_quarterly": 0.06751523,
+      "vol_monthly": 0.05639044,
+      "vol_weekly": 0.02887788
     },
     {
       "symbol": "USDZAR=X",
