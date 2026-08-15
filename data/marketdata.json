@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-15T01:44:35Z",
+  "generated_at_utc": "2026-08-15T02:38:56Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -886,12 +886,16 @@
       "symbol": "USDHKD=X",
       "name": "USD/HKD",
       "price": 7.8467,
-      "close_d1": 7.8472,
+      "close_d1": 7.8463,
       "pip_size": 0.0001,
-      "change_raw": -0.0005,
-      "change_pts": -5.0,
-      "change_pct": -6.368e-05,
+      "change_raw": 0.0004,
+      "change_pts": 4.0,
+      "change_pct": 5.099e-05,
       "daily_7d": [
+        {
+          "date": "2026-08-06",
+          "close": 7.8433
+        },
         {
           "date": "2026-08-07",
           "close": 7.8443
@@ -913,19 +917,15 @@
           "close": 7.8463
         },
         {
-          "date": "2026-08-14",
-          "close": 7.8472
-        },
-        {
           "date": "2026-08-15",
           "close": 7.8467
         }
       ],
-      "vol_annual": 0.00760837,
-      "vol_semiannual": 0.00652473,
-      "vol_quarterly": 0.00292577,
-      "vol_monthly": 0.00171235,
-      "vol_weekly": 0.00152879
+      "vol_annual": 0.00762703,
+      "vol_semiannual": 0.00657507,
+      "vol_quarterly": 0.00296287,
+      "vol_monthly": 0.00174088,
+      "vol_weekly": 0.00161225
     },
     {
       "symbol": "USDINR=X",
