@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-16T08:00:21Z",
+  "generated_at_utc": "2026-08-16T08:39:56Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -684,18 +684,47 @@
     {
       "symbol": "AUDNZD=X",
       "name": "AUD/NZD",
-      "price": null,
-      "close_d1": null,
-      "pip_size": null,
-      "change_raw": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 1.20181,
+      "close_d1": 1.20662,
+      "pip_size": 0.0001,
+      "change_raw": -0.00481,
+      "change_pts": -48.1,
+      "change_pct": -0.00398632,
+      "daily_7d": [
+        {
+          "date": "2026-08-07",
+          "close": 1.19855
+        },
+        {
+          "date": "2026-08-10",
+          "close": 1.19967
+        },
+        {
+          "date": "2026-08-11",
+          "close": 1.19824
+        },
+        {
+          "date": "2026-08-12",
+          "close": 1.20137
+        },
+        {
+          "date": "2026-08-13",
+          "close": 1.20524
+        },
+        {
+          "date": "2026-08-14",
+          "close": 1.20662
+        },
+        {
+          "date": "2026-08-16",
+          "close": 1.20181
+        }
+      ],
+      "vol_annual": 0.04321564,
+      "vol_semiannual": 0.05103239,
+      "vol_quarterly": 0.05365844,
+      "vol_monthly": 0.04666965,
+      "vol_weekly": 0.01690711
     },
     {
       "symbol": "USDBRL=X",
