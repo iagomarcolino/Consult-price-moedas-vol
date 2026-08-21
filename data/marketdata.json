@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-21T21:39:16Z",
+  "generated_at_utc": "2026-08-21T21:58:26Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -369,18 +369,47 @@
     {
       "symbol": "GBPJPY=X",
       "name": "GBP/JPY",
-      "price": null,
-      "close_d1": null,
-      "pip_size": null,
-      "change_raw": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 216.787003,
+      "close_d1": 215.244003,
+      "pip_size": 0.01,
+      "change_raw": 1.542999,
+      "change_pts": 154.3,
+      "change_pct": 0.00716861,
+      "daily_7d": [
+        {
+          "date": "2026-08-13",
+          "close": 215.046997
+        },
+        {
+          "date": "2026-08-14",
+          "close": 215.067993
+        },
+        {
+          "date": "2026-08-17",
+          "close": 215.669998
+        },
+        {
+          "date": "2026-08-18",
+          "close": 215.901993
+        },
+        {
+          "date": "2026-08-19",
+          "close": 215.966003
+        },
+        {
+          "date": "2026-08-20",
+          "close": 215.244003
+        },
+        {
+          "date": "2026-08-21",
+          "close": 216.787003
+        }
+      ],
+      "vol_annual": 0.07441014,
+      "vol_semiannual": 0.06132683,
+      "vol_quarterly": 0.06435275,
+      "vol_monthly": 0.08576286,
+      "vol_weekly": 0.06076956
     },
     {
       "symbol": "EURGBP=X",
