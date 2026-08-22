@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-22T16:36:04Z",
+  "generated_at_utc": "2026-08-22T16:56:54Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -549,18 +549,47 @@
     {
       "symbol": "CADJPY=X",
       "name": "CAD/JPY",
-      "price": null,
-      "close_d1": null,
-      "pip_size": null,
-      "change_raw": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 115.414001,
+      "close_d1": 114.609001,
+      "pip_size": 0.01,
+      "change_raw": 0.805,
+      "change_pts": 80.5,
+      "change_pct": 0.00702388,
+      "daily_7d": [
+        {
+          "date": "2026-08-13",
+          "close": 114.299004
+        },
+        {
+          "date": "2026-08-14",
+          "close": 114.472
+        },
+        {
+          "date": "2026-08-17",
+          "close": 114.778
+        },
+        {
+          "date": "2026-08-18",
+          "close": 114.862999
+        },
+        {
+          "date": "2026-08-19",
+          "close": 114.791
+        },
+        {
+          "date": "2026-08-20",
+          "close": 114.609001
+        },
+        {
+          "date": "2026-08-21",
+          "close": 115.414001
+        }
+      ],
+      "vol_annual": 0.08345559,
+      "vol_semiannual": 0.06609107,
+      "vol_quarterly": 0.06727787,
+      "vol_monthly": 0.10187244,
+      "vol_weekly": 0.06135574
     },
     {
       "symbol": "CHFJPY=X",
