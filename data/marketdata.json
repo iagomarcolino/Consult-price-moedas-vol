@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-05T21:39:13Z",
+  "generated_at_utc": "2026-09-05T23:18:38Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -234,12 +234,12 @@
     {
       "symbol": "USDCAD=X",
       "name": "USD/CAD",
-      "price": 1.37895,
+      "price": 1.3837,
       "close_d1": 1.38449,
       "pip_size": 0.0001,
-      "change_raw": -0.00554,
-      "change_pts": -55.4,
-      "change_pct": -0.00400148,
+      "change_raw": -0.00079,
+      "change_pts": -7.9,
+      "change_pct": -0.00057061,
       "daily_7d": [
         {
           "date": "2026-08-27",
@@ -840,12 +840,12 @@
     {
       "symbol": "USDSGD=X",
       "name": "USD/SGD",
-      "price": 1.26671,
+      "price": 1.2666,
       "close_d1": 1.2709,
       "pip_size": 0.0001,
-      "change_raw": -0.00419,
-      "change_pts": -41.9,
-      "change_pct": -0.00329685,
+      "change_raw": -0.0043,
+      "change_pts": -43.0,
+      "change_pct": -0.00338343,
       "daily_7d": [
         {
           "date": "2026-08-27",
@@ -885,12 +885,12 @@
     {
       "symbol": "USDHKD=X",
       "name": "USD/HKD",
-      "price": 7.84,
+      "price": 7.8407,
       "close_d1": 7.8416,
       "pip_size": 0.0001,
-      "change_raw": -0.0016,
-      "change_pts": -16.0,
-      "change_pct": -0.00020401,
+      "change_raw": -0.0009,
+      "change_pts": -9.0,
+      "change_pct": -0.00011475,
       "daily_7d": [
         {
           "date": "2026-08-27",
@@ -975,18 +975,47 @@
     {
       "symbol": "USDZAR=X",
       "name": "USD/ZAR",
-      "price": null,
-      "close_d1": null,
-      "pip_size": null,
-      "change_raw": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 15.9512,
+      "close_d1": 16.062771,
+      "pip_size": 0.0001,
+      "change_raw": -0.111571,
+      "change_pts": -1115.7,
+      "change_pct": -0.00694596,
+      "daily_7d": [
+        {
+          "date": "2026-08-27",
+          "close": 15.9435
+        },
+        {
+          "date": "2026-08-28",
+          "close": 15.9915
+        },
+        {
+          "date": "2026-08-31",
+          "close": 16.16873
+        },
+        {
+          "date": "2026-09-01",
+          "close": 16.0921
+        },
+        {
+          "date": "2026-09-02",
+          "close": 16.15587
+        },
+        {
+          "date": "2026-09-03",
+          "close": 16.062771
+        },
+        {
+          "date": "2026-09-04",
+          "close": 15.9775
+        }
+      ],
+      "vol_annual": 0.11584645,
+      "vol_semiannual": 0.12347255,
+      "vol_quarterly": 0.10461277,
+      "vol_monthly": 0.08440636,
+      "vol_weekly": 0.07363761
     }
   ]
 }
