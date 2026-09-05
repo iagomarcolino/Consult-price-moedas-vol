@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-05T12:54:35Z",
+  "generated_at_utc": "2026-09-05T15:45:49Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -144,18 +144,47 @@
     {
       "symbol": "USDCHF=X",
       "name": "USD/CHF",
-      "price": null,
-      "close_d1": null,
-      "pip_size": null,
-      "change_raw": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 0.809,
+      "close_d1": 0.81298,
+      "pip_size": 0.0001,
+      "change_raw": -0.00398,
+      "change_pts": -39.8,
+      "change_pct": -0.00489555,
+      "daily_7d": [
+        {
+          "date": "2026-08-27",
+          "close": 0.80505
+        },
+        {
+          "date": "2026-08-28",
+          "close": 0.80376
+        },
+        {
+          "date": "2026-08-31",
+          "close": 0.80884
+        },
+        {
+          "date": "2026-09-01",
+          "close": 0.8082
+        },
+        {
+          "date": "2026-09-02",
+          "close": 0.8117
+        },
+        {
+          "date": "2026-09-03",
+          "close": 0.81298
+        },
+        {
+          "date": "2026-09-04",
+          "close": 0.809
+        }
+      ],
+      "vol_annual": 0.08600127,
+      "vol_semiannual": 0.06990522,
+      "vol_quarterly": 0.06977121,
+      "vol_monthly": 0.08084399,
+      "vol_weekly": 0.06206436
     },
     {
       "symbol": "AUDUSD=X",
