@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-27T13:37:41Z",
+  "generated_at_utc": "2026-09-27T17:56:05Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -729,17 +729,13 @@
     {
       "symbol": "USDBRL=X",
       "name": "USD/BRL",
-      "price": 5.1866,
-      "close_d1": 5.1643,
+      "price": 5.1842,
+      "close_d1": 5.1905,
       "pip_size": 0.0001,
-      "change_raw": 0.0223,
-      "change_pts": 223.0,
-      "change_pct": 0.00431815,
+      "change_raw": -0.0063,
+      "change_pts": -63.0,
+      "change_pct": -0.00121375,
       "daily_7d": [
-        {
-          "date": "2026-09-17",
-          "close": 5.1509
-        },
         {
           "date": "2026-09-18",
           "close": 5.1241
@@ -762,14 +758,18 @@
         },
         {
           "date": "2026-09-25",
-          "close": 5.1866
+          "close": 5.1905
+        },
+        {
+          "date": "2026-09-27",
+          "close": 5.1842
         }
       ],
-      "vol_annual": 0.11876365,
-      "vol_semiannual": 0.10862276,
-      "vol_quarterly": 0.08983685,
-      "vol_monthly": 0.08891684,
-      "vol_weekly": 0.11624529
+      "vol_annual": 0.11878365,
+      "vol_semiannual": 0.10868847,
+      "vol_quarterly": 0.09000484,
+      "vol_monthly": 0.08947264,
+      "vol_weekly": 0.11594006
     },
     {
       "symbol": "EURBRL=X",
@@ -885,12 +885,12 @@
     {
       "symbol": "USDHKD=X",
       "name": "USD/HKD",
-      "price": 7.8434,
+      "price": 7.8428,
       "close_d1": 7.8427,
       "pip_size": 0.0001,
-      "change_raw": 0.0007,
-      "change_pts": 7.0,
-      "change_pct": 8.925e-05,
+      "change_raw": 0.0001,
+      "change_pts": 1.0,
+      "change_pct": 1.277e-05,
       "daily_7d": [
         {
           "date": "2026-09-18",
@@ -918,7 +918,7 @@
         },
         {
           "date": "2026-09-27",
-          "close": 7.8434
+          "close": 7.8428
         }
       ],
       "vol_annual": 0.00748471,
@@ -930,12 +930,12 @@
     {
       "symbol": "USDINR=X",
       "name": "USD/INR",
-      "price": 95.82,
+      "price": 95.802002,
       "close_d1": 96.161301,
       "pip_size": 0.0001,
-      "change_raw": -0.341301,
-      "change_pts": -3413.0,
-      "change_pct": -0.00354925,
+      "change_raw": -0.359299,
+      "change_pts": -3593.0,
+      "change_pct": -0.00373642,
       "daily_7d": [
         {
           "date": "2026-09-18",
@@ -963,7 +963,7 @@
         },
         {
           "date": "2026-09-27",
-          "close": 95.82
+          "close": 95.802002
         }
       ],
       "vol_annual": 0.06673666,
